@@ -1,4 +1,4 @@
-import { createRoot } from "reac-dom/client"
+import { createRoot } from "react-dom/client"
 
 const App = () => {
     return (
