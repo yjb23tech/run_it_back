@@ -1,10 +1,18 @@
 import { createRoot } from "react-dom/client"
 import NavigationBar from "./components/NavigationBar.jsx"
 import Card from "./components/Card.jsx"
+import AlbumCard from "./components/AlbumCard.jsx"
 
 const App = () => {
     return (
         <div>
+            <AlbumCard 
+                album_cover_art = "track_9_song_art.png"
+                song_title = "RunWay Remix"
+                album_title = "My Beautiful Dark Twisted Fantasy"
+                artist_title = "Kanye West"
+                genre_title = "Baroque Sophisticated Ignorance"
+            />
             {/* <NavigationBar />
             <Card 
                 song_title = "Many Men"

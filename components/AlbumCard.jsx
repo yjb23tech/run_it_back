@@ -5,7 +5,7 @@ import genre_icon from "../public/images/genre_icon.png"
 const AlbumCard = (props) => {
     return (
         <div className="album-card">
-            <img src={`images/${props.album_cover_art}`} />
+            <img src={`images/${props.album_cover_art}`} className="album-cover-art"/>
             <div className="album-card-contents">
                 <h1>{props.song_title}</h1>
                 <div className="info-group">
