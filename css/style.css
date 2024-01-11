@@ -53,17 +53,21 @@ a:visited {
     width: 800px;
     margin: 100px auto 100px auto; 
     padding: 15px; 
-    background-color: #EA4335;
+    background-color: #C33C23;
     color: white;
-
-
+    border-radius: 12px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
 }
 
-.ss-row-song-details {
+.ss-row-general-setup {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+/* pair with gen-setup */
+.ss-row-song-details {
     padding: 0px;
     margin: 0px; 
 }
@@ -72,18 +76,26 @@ a:visited {
     padding: 0px;
     margin: 0px; 
     font-size: 24px;
-    font-family: Inter Tight;
+    font-family: Inter Tight, sans-serif;
 }
 
+/* pair with gen-setup */
 .ss-edit-trash-icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    width: 50px;
 }
 
 .ss-edit-trash-icons > img {
     width: 18px;
     height: 18px;
 }
+
+.ss-row-blank {
+    height: 36px;
+}
+
+.ss-row-like-comment-icons > img {
+    width: 18px;
+    height: 18px;
+}
+
 
