@@ -48,3 +48,42 @@ a:visited {
     font-size: 18px;
     font-family: sans-serif;
 }
+
+.ss-card {
+    width: 800px;
+    margin: 100px auto 100px auto; 
+    padding: 15px; 
+    background-color: #EA4335;
+    color: white;
+
+
+}
+
+.ss-row-song-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    margin: 0px; 
+}
+
+.ss-song-title {
+    padding: 0px;
+    margin: 0px; 
+    font-size: 24px;
+    font-family: Inter Tight;
+}
+
+.ss-edit-trash-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ss-edit-trash-icons > img {
+    width: 18px;
+    height: 18px;
+}
+
