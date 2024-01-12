@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     box-sizing: border-box;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 a {
@@ -100,24 +100,27 @@ a:visited {
 }
 
 .album-card {
-    width: 550px;
+    width: 600px;
     margin: 100px auto 100px auto; 
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: white;
-    box-shadow: 1px 1px 8px (0, 0, 0, 0.25);
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
 }
 
 .album-cover-art {
     width: 250px;
     height: 250px;
-    margin-right: 10px;
+    /* margin-right: 15px; */
+    border-radius: 12px;
 }
 
 .album-card-contents {
     width: 300px;
     height: 250px;
+    margin: 0px auto; 
 }
 
 .info-group {

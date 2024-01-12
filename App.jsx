@@ -6,6 +6,7 @@ import AlbumCard from "./components/AlbumCard.jsx"
 const App = () => {
     return (
         <div>
+            <NavigationBar />
             <AlbumCard 
                 album_cover_art = "track_9_song_art.png"
                 song_title = "RunWay Remix"
