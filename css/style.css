@@ -42,6 +42,14 @@ a:visited {
     width: 300px;
 }
 
+.nb-page-options-links > p {
+    margin-top: 9px;
+    margin-bottom: 9px;
+    color: rgba(40, 40, 43, 0.75);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
 .nb-page-options > p {
     margin-top: 9px;
     margin-bottom: 9px;
