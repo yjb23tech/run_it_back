@@ -11,7 +11,7 @@ const NavigationBar = () => {
                 <Link to={`/explorer`} className="nb-page-options-links">
                     <p>Explorer</p>
                 </Link>
-                <p>About</p>
+                <p>About Us</p>
             </div>
         </nav>
     )
